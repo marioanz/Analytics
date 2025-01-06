@@ -1,0 +1,8 @@
+SELECT TOP (1000) [PipelineId]
+      ,[Pipeline]
+      ,[Dependent Tasks]
+      ,[Owner]
+      ,[Status]
+      ,[Trigger]
+      ,[Notes]
+  FROM [Pipelines].[dbo].[Pipeline]

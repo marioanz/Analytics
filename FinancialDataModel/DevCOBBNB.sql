@@ -1,0 +1,12 @@
+SELECT TOP (1000) [Building]
+      ,[Contract]
+      ,[kW_Ramped]
+      ,[kW_Leased]
+      ,[Revenue]
+      ,[Opex_kW_Mth]
+      ,[Opex]
+      ,[NOI]
+      ,[NOI_Margin]
+      ,[EBITDA]
+  FROM [IMPORT].[dbo].[DevCoBBNB]
+  where Building = 'va13'
